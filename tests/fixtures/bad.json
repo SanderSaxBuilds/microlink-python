@@ -1,0 +1,17 @@
+{
+ "status": 400,
+ "headers": {
+  "content-type": "application/json; charset=utf-8",
+  "x-request-id": "iad:de600548-4e8b-43d0-8d02-f18a3699b611"
+ },
+ "body": {
+  "status": "fail",
+  "data": {
+   "url": "The URL `notaurl` is not valid. Ensure it has protocol, hostname and is reachable."
+  },
+  "code": "EINVALURL",
+  "more": "https://microlink.io/einvalurl",
+  "report": "https://feedback.microlink.io/api/v1/feedback?category=bug&request_id=iad%3Ade600548-4e8b-43d0-8d02-f18a3699b611&request_url=https%3A%2F%2Fapi.microlink.io%2F%3Furl%3Dnotaurl&error_code=EINVALURL&note=The+request+failed+with+EINVALURL+%28https%3A%2F%2Fmicrolink.io%2Feinvalurl%29.",
+  "message": "The request has been not processed. See the errors above to know why."
+ }
+}

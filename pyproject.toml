@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "microlink-client"
+version = "0.1.0"
+description = "Small typed Python client for the Microlink API: metadata, screenshots, PDFs and data extraction"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [{ name = "Alexandr Khrustalev" }]
+dependencies = []
+keywords = ["microlink", "screenshot", "metadata", "link preview", "scraping"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.urls]
+Source = "https://github.com/SanderSaxBuilds/microlink-python"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+microlink = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["live: calls the real Microlink API, run with MICROLINK_LIVE=1"]

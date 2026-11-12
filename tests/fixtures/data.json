@@ -1,0 +1,35 @@
+{
+ "status": 200,
+ "headers": {
+  "content-type": "application/json; charset=utf-8",
+  "x-rate-limit-limit": "5",
+  "x-rate-limit-remaining": "3",
+  "x-rate-limit-reset": "1794532646",
+  "x-cache-status": "MISS",
+  "x-fetch-mode": "prerender",
+  "x-request-id": "iad:96d526b1-04ae-44c9-8dda-b8df5111d818"
+ },
+ "body": {
+  "status": "success",
+  "data": {
+   "heading": null,
+   "url": "https://example.com/"
+  },
+  "statusCode": 200,
+  "redirects": [],
+  "headers": {
+   "age": "4",
+   "allow": "GET, HEAD",
+   "alt-svc": "h3=\":443\"; ma=86400",
+   "cf-cache-status": "HIT",
+   "cf-ray": "a593fa93db4161a4-EWR",
+   "content-encoding": "br",
+   "content-type": "text/html; charset=utf-8",
+   "date": "Thu, 12 Nov 2026 07:56:12 GMT",
+   "last-modified": "Sun, 08 Nov 2026 18:05:34 GMT",
+   "priority": "u=0,i",
+   "server": "cloudflare",
+   "server-timing": "cfExtPri"
+  }
+ }
+}

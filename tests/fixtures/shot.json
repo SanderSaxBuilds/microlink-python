@@ -1,0 +1,28 @@
+{
+ "status": 200,
+ "headers": {
+  "content-type": "application/json; charset=utf-8",
+  "x-rate-limit-limit": "5",
+  "x-rate-limit-remaining": "4",
+  "x-rate-limit-reset": "1794594004",
+  "x-cache-status": "HIT",
+  "x-fetch-mode": "skipped",
+  "x-request-id": "iad:dbd3003e-2239-48d1-b098-fd1f082904bc"
+ },
+ "body": {
+  "status": "success",
+  "data": {
+   "url": "https://example.com/",
+   "screenshot": {
+    "size_pretty": "169 kB",
+    "size": 168630,
+    "type": "png",
+    "url": "https://iad.microlink.io/hIleYcdwOTc0miqGIRo0IAxID6QtqubPg_mW_A2rKkpxtDr5G54lHVfpYrSH0v-G6EeOx3-JDUgaSXvBTsfsCA.png",
+    "width": 2560,
+    "height": 1600
+   }
+  },
+  "statusCode": null,
+  "headers": []
+ }
+}
